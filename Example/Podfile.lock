@@ -1,0 +1,16 @@
+PODS:
+  - MobileLibrary (0.1.0)
+
+DEPENDENCIES:
+  - MobileLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MobileLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MobileLibrary: 41aa92c31b813d4aca4db2eb0655c390800c664b
+
+PODFILE CHECKSUM: c9daa2b85c9c3455ad7507fbf52d51ff8c9c29c2
+
+COCOAPODS: 1.12.1

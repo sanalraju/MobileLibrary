@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rajusanal@gmail.com/MobileLibrary'
+  s.homepage         = 'https://github.com/sanalraju/MobileLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rajusanal@gmail.com' => 'rajusanal@gmail.com' }
-  s.source           = { :git => 'https://github.com/rajusanal@gmail.com/MobileLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sanalraju/MobileLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'MobileLibrary/Classes/**/*'
+  s.source_files = 'Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'MobileLibrary' => ['MobileLibrary/Assets/*.png']

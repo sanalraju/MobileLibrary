@@ -1,0 +1,6 @@
+framework module MobileLibrary {
+  umbrella header "MobileLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
