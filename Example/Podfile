@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MobileLibrary_Example' do
+  pod 'MobileLibrary', :path => '../'
+
+  target 'MobileLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
